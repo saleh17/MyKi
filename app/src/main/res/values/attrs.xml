@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolbarLayout">
+        <attr name="toolbar" format="reference"/>
+        <attr name="toolbarLayout" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="isLoading" format="boolean"/>
+
+        <attr name="message" format="string"/>
+        <attr name="displayMessage" format="boolean"/>
+        <attr name="displayButton" format="boolean"/>
+        <attr name="buttonText" format="string"/>
+
+        <attr name="image" format="reference"/>
+        <attr name="displayImage" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Blocks">
+        <attr name="toolbarLayoutStyle" format="reference"/>
+        <attr name="loadingViewStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PinView">
+        <attr name="digitBackground" format="reference"/>
+        <attr name="digitTextColor" format="color"/>
+        <attr name="digitTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedRecyclerView">
+        <attr name="layoutAnimation" format="reference" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="layoutManagerOrientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="layoutManagerReverse" format="boolean" />
+        <attr name="layoutManagerType" format="integer">
+            <enum name="linear" value="0" />
+            <enum name="grid" value="1" />
+        </attr>
+        <attr name="gridLayoutManagerColumns" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MyKi</string>
     <string name="action_settings">Settings</string>
+    <string name="device_rooted">Device Rooted</string>
+    <string name="close">Close</string>
+    <string name="device_rooted_message">Your device is rooted</string>
 </resources>
